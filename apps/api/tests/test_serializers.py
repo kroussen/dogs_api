@@ -8,7 +8,7 @@ class BreedSerializerTest(TestCase):
     def setUp(self):
         self.breed_attributes = {
             'name': 'Labrador',
-            'size': 'Large',
+            'size': 'L',
             'friendliness': 5,
             'trainability': 4,
             'shedding_amount': 3,
@@ -37,7 +37,7 @@ class DogSerializerTest(TestCase):
     def setUp(self):
         self.breed = Breed.objects.create(
             name='Labrador',
-            size='Large',
+            size='L',
             friendliness=5,
             trainability=4,
             shedding_amount=3,
